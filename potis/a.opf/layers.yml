@@ -1,0 +1,5 @@
+layers:
+  - toc:
+    - description: This layer contains the table of contents.
+    - authorship: Annotated manually by Tenzin.
+    - confidence: 0.9
