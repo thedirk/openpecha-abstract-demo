@@ -1,2 +1,0 @@
-JavaScript was created as an add-on code to extend the functionality of web pages. It adds dynamic features such as submission
-forms, interactivity, animations, user-tracking, etc. It’s mostly used for front-end development, or for coding solutions that customers and clients interact with. It’s compatible with all browsers, making it a good general-purpose web development code, though it’s also known to be difficult to debug.
