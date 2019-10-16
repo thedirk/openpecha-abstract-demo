@@ -42,3 +42,9 @@
 - 1 partial text # half of Second text
 - chapters in base
 - toc.yaml
+
+## potis/h.opf
+- single volume
+- 1 text # Second text with many spelling differences
+- chapters in base
+- toc.yaml
