@@ -1,1 +1,35 @@
-adsfs
+0:
+  - span:
+    - start_char: 0
+    - end_char: 0
+  - type: text_title
+  - payload: First Text
+  - BDRC_RID: W1A888
+1: 
+  - span:
+    - start_char: 649
+    - end_char: 649
+  - type: text_title
+  - payload: Second Text
+  - BDRC_RID: W1A333
+2:
+  - span:
+    - start_char: 1297
+    - end_char: 1297
+  - type: text_title
+  - payload: Third Text
+  - BDRC_RID: W1A444
+3:
+  - span:
+    - start_char: 1985
+    - end_char: 1985
+  - type: text_title
+  - payload: Fourth Text
+  - BDRC_RID: W1A777
+4:
+  - span:
+    - start_char: 2560
+    - end_char: 2560
+  - type: text_title
+  - payload: Fifth Text
+  - BDRC_RID: W1A222
