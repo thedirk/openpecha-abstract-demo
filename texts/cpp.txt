@@ -1,4 +1,1 @@
-Almost everything said for Java also applies for C++, just more so: where Python code is typically 3-5 times shorter than 
-equivalent Java code, it is often 5-10 times shorter than equivalent C++ code! Anecdotal evidence suggests that one Python 
-programmer can finish in two months what two C++ programmers can't complete in a year. Python shines as a glue language, used 
-to combine components written in C++. 
+C++ is an intermediate-level coding language that is object-oriented. It derives from C, however, it has add-ons and enhancements to make it a more multifaceted coding language. It’s well suited to large projects, as it can be broken up into parts enabling easy collaboration. It’s used by some of the world’s best-known tech companies including Adobe, Google, Mozilla, and Microsoft.
