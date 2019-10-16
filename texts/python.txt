@@ -1,5 +1,1 @@
-Python is often compared to other interpreted languages such as Java, JavaScript, Perl, Tcl, or Smalltalk. Comparisons to 
-C++, Common Lisp and Scheme can also be enlightening. In this section I will briefly compare Python to each of these languages.
-These comparisons concentrate on language issues only. In practice, the choice of a programming language is often dictated by 
-other real-world constraints such as cost, availability, training, and prior investment, or even emotional attachment. Since 
-these aspects are highly variable, it seems a waste of time to consider them much for this comparison.
+general purpose, high-level code, Python is a favourite of up and coming coders. It was designed to be fun to use (after all, it’s named for Monty Python, how could it not be?) It’s another highly recommended language for coding beginners to learn – and has become the top introductory coding language in American university programs. It’s used mostly for web apps and information security, though it’s also popular in the academic community for data analysis. It’s used by tech giants like Google, Dropbox, Pinterest and Spotify.
