@@ -1,6 +1,0 @@
-Python and Perl come from a similar background (Unix scripting, which both have long outgrown), and sport many similar features, 
-but have a different philosophy. Perl emphasizes support for common application-oriented tasks, e.g. by having built-in regular 
-expressions, file scanning and report generating features. Python emphasizes support for common programming methodologies such as 
-data structure design and object-oriented programming, and encourages programmers to write readable (and thus maintainable) code 
-by providing an elegant but not overly cryptic notation. As a consequence, Python comes close to Perl but rarely beats it in its 
-original application domain; however Python has an applicability well beyond Perl's niche. 
