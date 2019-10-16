@@ -1,0 +1,5 @@
+Python is often compared to other interpreted languages such as Java, JavaScript, Perl, Tcl, or Smalltalk. Comparisons to 
+C++, Common Lisp and Scheme can also be enlightening. In this section I will briefly compare Python to each of these languages.
+These comparisons concentrate on language issues only. In practice, the choice of a programming language is often dictated by 
+other real-world constraints such as cost, availability, training, and prior investment, or even emotional attachment. Since 
+these aspects are highly variable, it seems a waste of time to consider them much for this comparison.
