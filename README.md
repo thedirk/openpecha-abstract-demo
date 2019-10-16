@@ -1,49 +1,77 @@
 # openpoti-abstract-demo
 
-## potis/a.opf
+## Terminology
+
+### Etext
+
+### Work
+
+### Text
+
+### Volume
+
+### Poti
+
+### Collection
+
+### Abstract Text
+
+### Examples
+
+### Expression
+
+### Default Expression
+
+### Witness
+
+### Edition
+
+### Publication
+
+### potis/a.opf
 - single volume
 - 5 texts
 - section titles not in base
 - toc.yaml with section titles
 
-## potis/b.opf
+### potis/b.opf
 - single volume
 - 5 texts
 - preface, contents, apendix
 - section titles + chapters in base
 - toc.yaml
 
-## potis/c.opf
+### potis/c.opf
 - single volume
 - 1 text # First Text
 - section titles in base
 - toc.yaml
 
-## potis/d.opf
+### potis/d.opf
 - volume 1/2
 - 2.5 texts
 - section titles in base
 - toc.yaml
 
-## potis/e.opf
+### potis/e.opf
 - volume 2/2
 - 2.5 texts
 - section titles in base
 - toc.yaml
 
-## potis/f.opf
+### potis/f.opf
 - single volume
 - 1 text # First Text
 - chapters in base  # 3 chapters, 1&2 different than b.opf
 - toc.yaml
 
-## potis/g.opf
+### potis/g.opf
 - single volume
 - 1 partial text # half of Second text
 - chapters in base
 - toc.yaml
 
-## potis/h.opf
+### potis/h.opf
 - single volume
 - 1 text # Second text with many spelling differences
 - chapters in base
