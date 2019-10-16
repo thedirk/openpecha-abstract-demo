@@ -1,4 +1,2 @@
-Python's "object-based" subset is roughly equivalent to JavaScript. Like JavaScript (and unlike Java), Python supports a 
-programming style that uses simple functions and variables without engaging in class definitions. However, for JavaScript, 
-that's all there is. Python, on the other hand, supports writing much larger programs and better code reuse through a true 
-object-oriented programming style, where classes and inheritance play an important role. 
+JavaScript was created as an add-on code to extend the functionality of web pages. It adds dynamic features such as submission
+forms, interactivity, animations, user-tracking, etc. It’s mostly used for front-end development, or for coding solutions that customers and clients interact with. It’s compatible with all browsers, making it a good general-purpose web development code, though it’s also known to be difficult to debug.
