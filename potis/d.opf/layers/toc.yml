@@ -9,8 +9,17 @@
   - BDRC_RID:
 1:
   - span:
-    - start_char: 16
-    - end_char: 25
+    - start_char: 17
+    - end_char: 24
+  - type: sub_title
+  - format: title
+  - level: 1
+  - payload:
+  - BDRC_RID:
+1:
+  - span:
+    - start_char: 27
+    - end_char: 35 
   - type: contents
   - level: 1
   - format: heading_1
@@ -18,8 +27,8 @@
   - BDRC_RID:
 2:
   - span:
-    - start_char: 111
-    - end_char: 117
+    - start_char: 114
+    - end_char: 120
   - type: preface
   - level: 1
   - format: heading_1
