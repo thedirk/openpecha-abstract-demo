@@ -1,0 +1,17 @@
+
+title: Abstract Text Title
+BDRC_abstract_text_id: 
+wikidata_id: 
+expressions:
+  - 0:
+    - location: a-toc0
+    - priority: 0
+  - 1:
+    - word_id: b-toc3
+    - priority: 1
+  - 2:
+    - location: c-toc3
+    - priority: 2
+  - 3:
+    - location: d-V001-toc3,d-V002-toc3,d-V003-toc3
+    - priority: 3
