@@ -1,0 +1,45 @@
+0:
+  - span:
+    - start_char: 0
+    - end_char: 15
+  - type: vol_title
+  - format: title
+  - level: 1
+  - payload:
+  - BDRC_RID:
+1:
+  - span:
+    - start_char: 16
+    - end_char: 25
+  - type: contents
+  - level: 1
+  - format: heading_1
+  - payload:
+  - BDRC_RID:
+2:
+  - span:
+    - start_char: 66
+    - end_char: 72
+  - type: preface
+  - level: 1
+  - format: heading_1
+  - payload:
+  - BDRC_RID:
+3:
+  - span:
+    - start_char: 339
+    - end_char: 349
+  - type: section
+  - level: 1
+  - format: heading_1
+  - payload:
+  - BDRC_RID: W1A777
+4:
+  - span:
+    - start_char: 678
+    - end_char: 685
+  - type: appendix
+  - level: 1
+  - format: heading_1
+  - payload:
+  - BDRC_RID:
