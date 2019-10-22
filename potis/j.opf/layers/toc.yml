@@ -1,0 +1,15 @@
+0:
+  - span:
+    - start_char: 0
+    - end_char: 20
+  - type: text_title
+  - payload:
+  - BDRC_RID:
+1:
+  - span:
+    - start_char: 22
+    - end_char: 400
+  - type: text
+  - payload:
+  - BDRC_RID: W1A888
+  - Abstract_etext_id: W2OP2222

@@ -4,7 +4,7 @@
     - end_char: 0
   - type: text_title
   - payload: First Text
-  - BDRC_RID: W1A888
+  - BDRC_RID:
 1: 
   - span:
     - start_char: 649

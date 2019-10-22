@@ -6,6 +6,10 @@ expressions:
   - 0:
     - location: a-toc0
     - priority: 0
+    - alignments:
+      - bo:
+        - j-toc1
+        - 
   - 1:
     - word_id: b-toc3
     - priority: 1
