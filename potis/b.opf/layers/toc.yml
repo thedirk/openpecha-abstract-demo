@@ -1,99 +1,91 @@
-0:
-  - span:
-    - start_char: 0
-    - end_char: 15
-  - type: vol_title
-  - format: title
-  - level: 1
-  - payload:
-  - BDRC_RID:
-1:
-  - span:
-    - start_char: 16
-    - end_char: 25
-  - type: contents
-  - level: 1
-  - format: heading_1
-  - payload:
-  - BDRC_RID:
-2:
-  - span:
-    - start_char: 111
-    - end_char: 117
-  - type: preface
-  - level: 1
-  - format: heading_1
-  - payload:
-  - BDRC_RID:
-3:
-  - span:
-    - start_char: 384
-    - end_char: 393
-  - type: section
-  - level: 1
-  - format: heading_1
-  - payload:
-  - BDRC_RID: W1A777
-4:
-  - span:
-    - start_char: 395
-    - end_char: 403
-  - type: chapter
-  - level: 2
-  - format: heading_2
-  - payload:
-  - BDRC_RID:
-5:
-  - span:
-    - start_char: 626
-    - end_char: 634
-  - type: chapter
-  - level: 2
-  - format: heading_2
-  - payload:
-  - BDRC_RID:
-6:
-  - span:
-    - start_char: 936
-    - end_char: 947
-  - type: section
-  - level: 1
-  - format: heading_1
-  - payload:
-  - BDRC_RID: W1A777
-7:
-  - span:
-    - start_char: 1598
-    - end_char: 1607
-  - type: section
-  - level: 1
-  - format: heading_1
-  - payload:
-  - BDRC_RID: W1A777
-8:
-  - span:
-    - start_char: 2297
-    - end_char: 2307
-  - type: section
-  - level: 1
-  - format: heading_1
-  - payload:
-  - BDRC_RID: W1A777
-9:
-  - span:
-    - start_char: 2884
-    - end_char: 2893
-  - type: section
-  - level: 1
-  - format: heading_1
-  - payload:
-  - BDRC_RID: W1A777
-10:
-  - span:
-    - start_char: 3379
-    - end_char: 3386
-  - type: appendix
-  - level: 1
-  - format: heading_1
-  - payload:
-  - BDRC_RID:
+id: "id of the layer"
+type: "toc"
+rev: "098789"
+content:
+  - id: "0001"
+    span:
+      start_char: 0
+      end_char: 15
+    type: vol_title
+    format: title
+    payload:
+  - id: "0002"
+    span:
+      start_char: 18
+      end_char: 25
+    type: contents
+    format: heading_1
+    payload:
+  - id: "0003"
+    span:
+      start_char: 123
+      end_char: 129
+    type: preface
+    format: heading_1
+    payload:
+    BDRC_RID:
+  - id: "0004"
+    span:
+      start_char: 396
+      end_char: 405
+    type: text_title
+    format: heading_1
+    payload:
+    expressionof: http://purl.bdrc.io/resource/W1A333
+  - id: "0005"
+    span:
+      start_char: 407
+      end_char: 415
+    type: chapter_title
+    format: heading_2
+    payload:
+    part_of: "0004"
+    part_index: 1
+  - id: "0006" 
+    span:
+      start_char: 638
+      end_char: 646
+    type: chapter_title
+    format: heading_2
+    payload:
+    part_of: "0004"
+    part_index: 2
+  - id: "0007"
+    span:
+      start_char: 948
+      end_char: 958
+    type: text_title
+    format: heading_1
+    payload:
+    expressionof: http://purl.bdrc.io/resource/W1A555
+  - id: "0008"
+    span:
+      start_char: 1610
+      end_char: 1619
+    type: text_title
+    format: heading_1
+    payload:
+    expressionof: http://purl.bdrc.io/resource/W1A777
+  - id: "0009"
+    span:
+      start_char: 2309
+      end_char: 2319
+    type: text_title
+    format: heading_1
+    payload:
+    expressionof: http://purl.bdrc.io/resource/W1A777
+  - id: "0010"
+    span:
+      start_char: 2896
+      end_char: 2905
+    type: text_title
+    format: heading_1
+    payload:
+    expressionof: http://purl.bdrc.io/resource/W1A111
+  - id: "0011"
+    span:
+      start_char: 3391
+      end_char: 3398
+    type: appendix
+    format: heading_1
+    payload:
