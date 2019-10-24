@@ -30,7 +30,7 @@ content:
     type: text_title
     format: heading_1
     payload:
-    expressionof: http://purl.bdrc.io/resource/W1A333
+    expression_of: http://purl.bdrc.io/resource/W1A333
   - id: "0005"
     span:
       start_char: 407
@@ -56,7 +56,7 @@ content:
     type: text_title
     format: heading_1
     payload:
-    expressionof: http://purl.bdrc.io/resource/W1A555
+    expression_of: http://purl.bdrc.io/resource/W1A555
   - id: "0008"
     span:
       start_char: 1610
@@ -64,7 +64,7 @@ content:
     type: text_title
     format: heading_1
     payload:
-    expressionof: http://purl.bdrc.io/resource/W1A777
+    expression_of: http://purl.bdrc.io/resource/W1A777
   - id: "0009"
     span:
       start_char: 2309
@@ -72,7 +72,7 @@ content:
     type: text_title
     format: heading_1
     payload:
-    expressionof: http://purl.bdrc.io/resource/W1A777
+    expression_of: http://purl.bdrc.io/resource/W1A777
   - id: "0010"
     span:
       start_char: 2896
@@ -80,7 +80,7 @@ content:
     type: text_title
     format: heading_1
     payload:
-    expressionof: http://purl.bdrc.io/resource/W1A111
+    expression_of: http://purl.bdrc.io/resource/W1A111
   - id: "0011"
     span:
       start_char: 3391

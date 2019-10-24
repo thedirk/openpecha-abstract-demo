@@ -10,7 +10,7 @@ content:
     payload:
       value: First Text
       lang: en
-    expressionof: http://purl.bdrc.io/resource/W1A333
+    expression_of: http://purl.bdrc.io/resource/W1A333
   - id: "0002"
     span:
       start_char: 647
@@ -19,7 +19,7 @@ content:
     payload:
       value: Second Text
       lang: en
-    expressionof: http://purl.bdrc.io/resource/W1A111
+    expression_of: http://purl.bdrc.io/resource/W1A111
   - id: "0003"
     span:
       start_char: 1297
@@ -28,7 +28,7 @@ content:
     payload:
       value: Third Text
       lang: en
-    expressionof: http://purl.bdrc.io/resource/W1A555
+    expression_of: http://purl.bdrc.io/resource/W1A555
   - id: "0004"
     span:
       start_char: 1985
@@ -37,7 +37,7 @@ content:
     payload:
       value: Fourth Text
       lang: en
-    expressionof: http://purl.bdrc.io/resource/W1A777
+    expression_of: http://purl.bdrc.io/resource/W1A777
   - id: "0005"
     span:
       start_char: 2560
@@ -46,4 +46,4 @@ content:
     payload:
       value: Fifth Text
       lang: en
-    expressionof: http://purl.bdrc.io/resource/W1A999
+    expression_of: http://purl.bdrc.io/resource/W1A999

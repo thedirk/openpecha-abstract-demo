@@ -30,6 +30,7 @@ content:
     type: text_title
     format: heading_1
     payload:
+    expression_of: http://purl.bdrc.io/resource/W1A333
   - id: "0005"
     span:
       start_char: 349
