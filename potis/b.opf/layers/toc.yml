@@ -23,7 +23,6 @@ content:
     type: preface
     format: heading_1
     payload:
-    BDRC_RID:
   - id: "0004"
     span:
       start_char: 396
