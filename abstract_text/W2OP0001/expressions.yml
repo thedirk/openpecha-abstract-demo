@@ -7,9 +7,6 @@ expressions:
     id: "0001"
     priority: 0
     alignments:
-      bo:
-        - j-toc1
-        - 
   - expression_of: https://www.github.com/OpenPoti/b/b.opf
     id: "0004"
     priority: 1
