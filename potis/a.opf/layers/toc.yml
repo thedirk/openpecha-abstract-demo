@@ -2,7 +2,7 @@ id: toc
 type: toc
 rev: "098789"
 log:
-  - id: "001"
+  - id: "LG001"
     date: "2019-10-25" # here it should be a full time, I just don't remember the syntax
     who:
       id: bdr:U198
@@ -11,7 +11,7 @@ log:
     message: "bla"
     parent_layer_rev: c987ef76
 content:
-  - id: "0001"
+  - id: "A0001"
     # this should be the span of the part of the base layer corresponding to the whole text
     # not just the title
     span:

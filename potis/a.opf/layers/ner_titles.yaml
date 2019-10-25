@@ -4,7 +4,7 @@ subtype: titles
 rev: "098789"
 status: released # could also be experimental, in-review, etc. many things are possible
 log:
-  - id: "001"
+  - id: "LG001"
     date: "2019-10-25" # here it should be a full time, I just don't remember the syntax
     who:
       id: bdr:U198
@@ -14,17 +14,18 @@ log:
     message: "bla"
     parent_layer_rev: c987ef76
 content:
-  - id: "0001"
+  - id: "A0001"
     # this is the span of just the title
     span:
       start: 10
       end: 96
     lang: bo
     # it is the Tibetan title for this section
-    title_for: this:toc/001
+    title_for: toc/A0001
+    # Note that we should be able to reference layers / annotations in other potis, like opoti:13897924/idlayer/id
     # quite important
     title_type: bdo:WorkIncipitTitle
-  - id: "0002"
+  - id: "A0002"
     span:
       start: 105
       end: 154
