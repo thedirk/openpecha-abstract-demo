@@ -1,49 +1,27 @@
-id: "id of the layer"
-type: "toc"
+id: toc
+type: toc
 rev: "098789"
+log:
+  - id: "001"
+    date: "2019-10-25" # here it should be a full time, I just don't remember the syntax
+    who:
+      id: bdr:U198
+      label: Tenzin
+    type: creation
+    message: "bla"
+    parent_layer_rev: c987ef76
 content:
   - id: "0001"
+    # this should be the span of the part of the base layer corresponding to the whole text
+    # not just the title
     span:
-      start_char: 0
-      end_char: 0
-    type: text_title
-    payload:
+      start: 0
+      end: 87687
+    type: text
+    title:
+      # label is not mandatory here, since we have a ner_title that does just that
       value: First Text
       lang: en
-    expression_of: http://purl.bdrc.io/resource/W1A333
-  - id: "0002"
-    span:
-      start_char: 647
-      end_char: 647
-    type: text_title
-    payload:
-      value: Second Text
-      lang: en
-    expression_of: http://purl.bdrc.io/resource/W1A111
-  - id: "0003"
-    span:
-      start_char: 1297
-      end_char: 1297
-    type: text_title
-    payload:
-      value: Third Text
-      lang: en
-    expression_of: http://purl.bdrc.io/resource/W1A555
-  - id: "0004"
-    span:
-      start_char: 1985
-      end_char: 1985
-    type: text_title
-    payload:
-      value: Fourth Text
-      lang: en
-    expression_of: http://purl.bdrc.io/resource/W1A777
-  - id: "0005"
-    span:
-      start_char: 2560
-      end_char: 2560
-    type: text_title
-    payload:
-      value: Fifth Text
-      lang: en
-    expression_of: http://purl.bdrc.io/resource/W1A999
+      type: bdo:WorkRunningTitle # This is a way to encode the marginal title if it's not in the base layer, 
+                                 # as well as probably other types when necessary (title page, copyright page, title in karchak, etc.) 
+    expression_of: bdr:W1A333

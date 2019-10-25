@@ -1,9 +1,54 @@
-BDRC_meta:
-  - BDRC Abstract Work ID: W19740
-  - BDRC Work ID: W1Z111
-OpenPoti_meta:
-  - poti_id: a
-  - collection:
-  - abstract_text_id: A1OP111
-  - title: Five Great Texts
-  - author: Tenzin
+id: "op:13897924"
+log:
+  # There are also change logs per layer so if the base layer hasn't been touched, no need
+  # to add a log entry here
+  - id: "001"
+    date: "2019-10-25" # here it should be a full time, I just don't remember the syntax
+    who:
+      id: bdr:U198 # can be any URI that the user has (BDRC user ID, github, an account on OpenPoti, etc.)
+      label: 
+        value: Tenzin
+    type: creation
+    message: "creation of the poti, from OCR, or whatever"
+    # this is the revision of the poti at the time of the modification
+    parent_layer_rev: c987ef76
+namespaces:
+  # This is not mandatory but it makes the metadata a bit more readable by humans
+  - bdr: http://purl.bdrc.io/resource/
+  - bdo: http://purl.bdrc.io/ontology/core/
+  - opoti: http://purl.openpoti.works/resource/poti/
+  - opprov: http://purl.openpoti.works/resource/provider/
+  - esk: http://purl.esukhia.org/
+itemfor: bdr:W1Z111
+expressionof: bdr:W19740
+# references to other potis should be URIs, not just mere IDs
+expressionofpoti: opoti:A1OP111
+initial_creation_type: ocr # could also be input
+imported_from:
+  provider:
+    id: opprov:BDRC # or whatever other provider
+    label:
+      value: BDRC
+  url: http://foo.b/ar/ # the url the poti was imported from
+  rev: "" # can be the date of the import, or whatever revision the imported file had
+  date: "2019-05-30"
+  # Note that rev and date should be updated if a new import takes place
+copyright:
+  base_layer:
+    # must be a canonical URI from creative commons or http://rightsstatements.org (not too many values possible, can be hardcoded) 
+    license: http://creativecommons.org/publicdomain/mark/1.0/
+  layers:
+    # This is the default copyright data for the layers, it can be overriden in any layer if it's under a different copyright
+    license: http://creativecommons.org/publicdomain/zero/1.0/
+    year:
+      - 2019 # first year of copyright
+      - 2020 # latest year of copyright
+    owner:
+      id: "esk:Esukhia"
+      label:
+        - value: Esukhia
+        - value: "Esukhia in Tibetan"
+          lang: bo
+    statement:
+      value: Copyright (C) 2019-2020 Esukhia, distributed under CC0
+      lang: en
