@@ -2,6 +2,7 @@ id: ner_titles
 type: ner
 subtype: titles
 rev: "098789"
+status: released # could also be experimental, in-review, etc. many things are possible
 log:
   - id: "001"
     date: "2019-10-25" # here it should be a full time, I just don't remember the syntax
