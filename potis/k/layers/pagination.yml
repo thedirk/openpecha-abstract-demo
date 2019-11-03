@@ -1,0 +1,28 @@
+id: "PGbdrV4CZ5369_I1KG9127"
+annotation_type: "pagination"
+rev: "098789"
+# note that there can be more complexity sometimes:
+# - one volume having multiple sections with each their own pagination
+# - different paginations on the same page
+# see https://docs.google.com/document/d/1XdKp6j860PhsYqpc1GVIetOPjJufEb7d6hHzr2ed6Pk/edit#
+# the format should probably be more similar to the one in the aforementionned specs, exemplified on
+# https://github.com/buda-base/manifest-tk
+content:
+  - id: "PGbdrV4CZ5369_I1KG9127_001"
+    type: page
+    span:
+      start_char: 0
+      end_char: 15
+    pg-indication: ""
+    pg-simplename: "1a"
+    pg-img-ref: "EXTR0001"
+    # note here that this could be more complex as in some cases one file != one page, for instance when
+    # two pages are on one scan
+  - id: "LPGbdrV4CZ5369_I1KG9127_001_001"
+    type: line
+    line-of-page: "PGbdrV4CZ5369_I1KG9127_001"
+    span:
+      start_char: 0
+      end_char: 15
+    line_num: 1
+    

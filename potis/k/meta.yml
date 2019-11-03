@@ -1,0 +1,20 @@
+id: "opoti:k"
+initial_creation_type: ocr
+ext-references:
+  - id: "EXTR0001"
+    type: image
+    mime-type: image/jpeg
+    url: https://iiif.bdrc.io/bdr:V4CZ5369_I1KG9127::I1KG91270003.jpg/full/max/0/default.jpg
+    md5: 6851ad79bc1128deb04aa6df3e258fdf
+    last-seen: "2019-11-03"
+    subtype: iiif
+resources:
+  - id: "R001"
+    name:
+      value: "Google OCR result of page 1"
+      lang: "en"
+    file: "resources/3.json"
+    mime-type: application/json
+    format: google-ocr
+    creation-date: "2019-11-03"
+    ocr-of-ref: EXTR0001 
