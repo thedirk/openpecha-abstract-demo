@@ -1,9 +1,13 @@
-BDRC_meta:
-  - BDRC Abstract Work ID: W19740
-  - BDRC Work ID: W1Z111
-OpenPoti_meta:
-  - poti_id: a
-  - collection:
-  - abstract_text_id: A1OP111
-  - title: Five Great Texts
-  - author: Tenzin
+id: "opoti:d"
+initial_creation_type: input
+base:
+  - id: "B001"
+    name:
+      value: "volume 1"
+      lang: "en"
+    file: "bases/v001.txt"
+  - id: "B002"
+    name:
+      value: "volume 2"
+      lang: "en"
+    file: "bases/v002.txt"

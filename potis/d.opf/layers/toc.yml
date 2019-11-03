@@ -2,9 +2,11 @@ id: "id of the layer"
 annotation_type: "toc"
 annotation_of: "collection"
 rev: "098789"
+default-span-base: "B001"
 content:
   - id: "0001"
     span:
+      # no base indication so it's in the default one (see above, B001)
       start_char: 0
       end_char: 15
     type: vol_title
@@ -12,10 +14,10 @@ content:
     payload:
   - id: "0002"
     span:
-      - vol: 1
+      - base: "B001"
         start_char: 17
         end_char: 24
-      - vol: 2
+      - base: "B002"
         start_char: 17
         end_char: 24
     type: sub_title
@@ -23,10 +25,10 @@ content:
     payload:
   - id: "0003"
     span:
-      - vol: 1
+      - base: "B001"
         start_char: 27
         end_char: 34
-      - vol: 2
+      - base: "B002"
         start_char: 27
         end_char: 34
     type: contents
@@ -34,10 +36,10 @@ content:
     payload:
   - id: "0004"
     span:
-      - vol: 1
+      - base: "B001"
         start_char: 114
         end_char: 120
-      - vol: 2
+      - base: "B002"
         start_char: 111
         end_char: 117
     type: preface
@@ -45,7 +47,7 @@ content:
     payload:
   - id: "0005"
     span:
-      - vol: 1
+      - base: "B001"
         start_char: 384
         end_char: 393
     type: text_title
@@ -54,7 +56,7 @@ content:
     expressionof: http://purl.bdrc.io/resource/W1A333
   - id: "0006"
     span:
-      - vol: 1
+      - base: "B001"
         start_char: 395
         end_char: 403
     type: chapter_title
@@ -62,7 +64,7 @@ content:
     payload:
   - id: "0007"
     span:
-      - vol: 1
+      - base: "B001"
         start_char: 626
         end_char: 634
     type: chapter_title
@@ -70,7 +72,7 @@ content:
     payload:
   - id: "0008"
     span:
-      - vol: 1
+      - base: "B001"
         start_char: 936
         end_char: 947
     type: text_title
@@ -79,10 +81,10 @@ content:
     expression_of: http://purl.bdrc.io/resource/W1A111
   - id: "0009"
     span:
-      - vol: 1
+      - base: "B001"
         start_char: 1061
         end_char: 1621
-      - vol: 2
+      - base: "B002"
         start_char: 373
         end_char: 393
     type: text_title
@@ -91,7 +93,7 @@ content:
     expression_of: http://purl.bdrc.io/resource/W1A666
   - id: "0010"
     span:
-      - vol: 2
+      - base: "B002"
         start_char: 680
         end_char: 690
     type: text_title
