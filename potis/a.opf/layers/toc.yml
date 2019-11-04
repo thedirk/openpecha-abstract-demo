@@ -15,8 +15,8 @@ content:
     # this should be the span of the part of the base layer corresponding to the whole text
     # not just the title
     span:
-      start: 0
-      end: 87687
+      start_char: 0
+      end_char: 643
     type: text
     title:
       # label is not mandatory here, since we have a ner_title that does just that
@@ -25,3 +25,43 @@ content:
       type: bdo:WorkRunningTitle # This is a way to encode the marginal title if it's not in the base layer, 
                                  # as well as probably other types when necessary (title page, copyright page, title in karchak, etc.) 
     expression_of: bdr:W1A333
+  - id: "A00002"
+    span:
+      start_char: 647
+      end_char: 1294
+    type: text
+    title:
+      value: Second Text
+      lang: en
+      type: bdo:WorkRunningTitle
+    expression_of: bdr:W1A444
+  - id: "A00003"
+    span:
+      start_char: 1297
+      end_char: 1982
+    type: text
+    title:
+      value: Third Text
+      lang: en
+      type: bdo:WorkRunningTitle
+    expression_of: bdr:W1A111
+  - id: "A00004"
+    span:
+      start_char: 1985
+      end_char: 2557
+    type: text
+    title:
+      value: Forth Text
+      lang: en
+      type: bdo:WorkRunningTitle
+    expression_of: bdr:W1666
+  - id: "A00005"
+    span:
+      start_char: 2560
+      end_char: 3041
+    type: text
+    title:
+      value: Fifth Text
+      lang: en
+      type: bdo:WorkRunningTitle
+    expression_of: bdr:W1A444

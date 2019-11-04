@@ -17,8 +17,8 @@ content:
   - id: "A0001"
     # this is the span of just the title
     span:
-      start: 10
-      end: 96
+      start: 0
+      end: 0
     lang: bo
     # it is the Tibetan title for this section
     title_for: toc/A0001
@@ -27,5 +27,29 @@ content:
     title_type: bdo:WorkIncipitTitle
   - id: "A0002"
     span:
-      start: 105
-      end: 154
+      start: 647
+      end: 647
+    lang: bo
+    title_for: toc/A0002
+    title_type: bdo:WorkIncipitTitle
+  - id: "A0003"
+    span:
+      start: 1297
+      end: 1297
+    lang: bo
+    title_for: toc/A0003
+    title_type: bdo:WorkIncipitTitle
+  - id: "A0004"
+    span:
+      start: 1985
+      end: 1985
+    lang: bo
+    title_for: toc/A0004
+    title_type: bdo:WorkIncipitTitle
+  - id: "A0005"
+    span:
+      start: 2560
+      end: 2560
+    lang: bo
+    title_for: toc/A0005
+    title_type: bdo:WorkIncipitTitle
