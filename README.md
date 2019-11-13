@@ -10,15 +10,19 @@
 
 **Volume** is a book forming part of a work or series. It can also be a single book or a bound collection of printed. sheets.
 
-**Poti** ( པོ་ཏི་) in Tibetan; पोथी pothi in Nepali and Hindi; پوتھی‎ poti in Urdu, means volume, book or booklet. In OpenPoti it is the digital equivalent of a physical volume. 
+**Pecha** ( དཔེ་ཆ་) in Tibetan is a traditional Tibetan-style book with long, loose-leaf pages. In OpenPecha, it is the digital equivalent of a physical volume.
 
 **Collection** is a group of volumes or texts. For eg, the kangyur is both collection of texts and volumes, while a prayer book is collection of texts in a single volume.
 
 **Abstract Text** refers to a text regarded in terms of its content rather than its version, edition or physical form. For eg, the སྤྱོད་འཇུག in general is an abstract text, which exists in many expressions such as any printed edition, epub, text file  or even the སྤྱོད་འཇུག in the mind of a monk who knows it by heart.
 
-**Expression** refers to any specific edition, publication or version of a text as opposed to its abstract text. For eg, the སྤྱོད་འཇུག found in the volume 106 of the derge Tengyur and the OpenPoti W1OP000001 are two expressions of the same text.
+**Expression** refers to any specific edition, publication or version of a text as opposed to its abstract text. For eg, the སྤྱོད་འཇུག found in the volume 106 of the derge Tengyur and the OpenPecha W1OP000001 are two expressions of the same text.
 
 **Default Expression** is the digital version of a text which was selected to represent it by default. Usually the most authoritative and best proofread expression. For eg, the etext of the སྤྱོད་འཇུག found in the digital edition of the tengyur proofread by Esukhia was selected as the default expression of the སྤྱོད་འཇུག 
+
+**Verbal Text** is the string of characters in a text that corresponds—as closely as is possible—to the message of the original work. Since it represents the communicative intent of the author(s), it does not contain formatting or illustrations or glossaries or other content specific to "being a book". Since it roughly aligns with what would be communicated orally, it's called the "verbal text". 
+
+**Base Text** is the base layer or source text of an OpenPecha. It is the string of unicode characters in plain text format that is the best-possible representation of the verbal text—the main body or core message of the text. It does not include tools like tables of content or figures or formatting or decorative punctuation. However, it does include punctuation that stands for prosody. (Importantly, texts are "taken at their word" in the base text; just as listeners interpret and auto-correct speakers who mis-speak, error correction is an interpretation of the base text, and thus a separate layer). 
 
 **Witness** in phylology, any published expression of a text.
 
